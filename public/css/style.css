@@ -1,7 +1,21 @@
-.tcor {
-    background-color: rebeccapurple;
-    /* margin-top: 40px; */
+.animatedbg {
+    background: url(../../imgs/bg-pattern.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    animation: animate 10s linear infinite;
 }
+@keyframes animate{
+    from{
+        background-position: 0px 0px;
+    }
+    to{
+        background-position: 0px 400px;
+    }
+}
+
 .btn-custom {
     background-color: coral;
     border-radius: 8px;
@@ -36,8 +50,6 @@
     text-align: center;
     padding: 12px;    
 }
-
-
 .s1 {
     height: 42rem;
     background-image: linear-gradient(to top, whitesmoke, #c6c6c6);
