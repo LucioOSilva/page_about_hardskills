@@ -1,0 +1,106 @@
+.tcor {
+    background-color: rebeccapurple;
+    /* margin-top: 40px; */
+}
+.btn-custom {
+    background-color: coral;
+    border-radius: 8px;
+    transition: color 500ms;
+    margin: 5px;
+}
+.btn-custom:hover {
+    background-color: #666666;
+    color: antiquewhite;
+    box-shadow: 0px 3px 6px 2px rgba(0,0,0,0.8);
+}
+.cardborder {
+    box-shadow: 2px 6px 6px 2px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    margin: 10px;
+    transition: box-shadow 500ms;
+}
+.cardborder:hover {
+    box-shadow: 0px 6px 6px 8px rgba(0,0,0,0.5);
+}
+.whitespace {
+    background-color: whitesmoke;
+    height: 6rem;
+}
+.navcol {
+    height: 3rem;
+    background-color: #c6c6c6;
+}
+.fotcol {
+    height: 3rem;
+    background-color: #c6c6c6;
+    color: #3E3E3E;
+    text-align: center;
+    padding: 12px;    
+}
+
+
+.s1 {
+    height: 42rem;
+    background-image: linear-gradient(to top, whitesmoke, #c6c6c6);
+}
+.s2 {
+    background-color: whitesmoke;
+}
+.s3 {
+    background-image: linear-gradient(to bottom, whitesmoke, #c6c6c6);
+}
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txtcol {
+    color: #3E3E3E;
+}
+.progressbarcolor{ 
+    background-color: coral;
+}
+.progressbartxt {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.fa, .fab {
+    color: #3E3E3E;
+    padding: 20px 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: color 400ms;
+}
+.fa:hover{
+    color: coral; 
+}
+
+.fa-github:hover {
+    color: black;
+    margin: -2px;
+}
+.fa-hackerrank:hover {
+    opacity: 0.8;
+    color: green;
+    margin: -2px;
+}
+.fa-linkedin:hover {
+    opacity: 0.8;
+    color: blue;
+    margin: -2px;
+}
+.fa-instagram:hover {
+    opacity: 0.8;
+    color: palevioletred;
+    margin: -2px;
+}
+.fa-facebook:hover {
+    opacity: 0.8;
+    color: darkblue;
+    margin: -2px;
+}
